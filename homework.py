@@ -2,7 +2,7 @@ x=input("enter the striing")
 y=" "
 for i in x:
 	if ord(i)>=97 and ord(i)<=122:
-		a=ord(i)-  32
+		a=ord(i)
 		b=chr(a)
 		y=y+b
 	else:
