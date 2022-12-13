@@ -1,3 +1,15 @@
 star={2,4,6,2,11,12,"yes","no",2.4,255,0+1j}
 star2=set((2,4,6,2,11,12))
-print(star,star2)
+"""print(star,star2)
+star.add("23")
+print(star)
+#star.pop()
+#print(star)
+star.remove(2)
+print(star)
+star.clear()
+print(star)"""
+star.discard(9)
+print(star)
+star.len()
+print(star)
