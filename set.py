@@ -11,5 +11,3 @@ star.clear()
 print(star)"""
 star.discard(9)
 print(star)
-star.len()
-print(star)

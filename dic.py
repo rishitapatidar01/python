@@ -7,5 +7,5 @@ for i,j in dict1.items():
 #dict1["Name"]="anjalli"
 #print(dict1)
 #print(dict1)
-dict1.pop("BCA")
+dict1.pop("class")
 print(dict1)
