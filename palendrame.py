@@ -4,3 +4,4 @@ if name==b:
 	print(name,"is a palendrome")
 else:
 	print(name,"is not a palendrome")
+#print(b)

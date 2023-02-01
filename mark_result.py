@@ -1,5 +1,3 @@
-
-
 #step 1 : writing marks to marks1.txt
 marks = open("marks1.txt","w")
 student_name = input("Enter Student Name : ")
@@ -19,7 +17,7 @@ record = data.split(",")
 #print(record)
 total = 0 
 for i in range(1,len(record)):
-    total = total + int(record[i])
+-total = total + int(record[i])
 average = total/(len(record)-1)
 #print(total,average)
 data_file.close()
@@ -31,7 +29,7 @@ record.append(str(average))
 #print(record)
 details = record[0]
 for i in range(1,len(record)) : 
-    details = details + "," + record[i]
+details = details + "," + record[i]
 #print(details)
 file.write(details)
 file.close()

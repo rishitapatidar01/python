@@ -11,7 +11,7 @@ def typecheck(x):
 		elif i==".":
 			dot_count+=1
 		else:
-			other_count+=1 
+			other_count+=1
 
 	if other_count==0 and dot_count==0:
 		x=int(x)

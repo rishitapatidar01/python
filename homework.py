@@ -1,4 +1,4 @@
-x=input("enter the striing")
+x=input("enter the string:")
 y=" "
 for i in x:
 	if ord(i)>=97 and ord(i)<=122:
