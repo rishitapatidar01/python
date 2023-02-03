@@ -1,0 +1,1 @@
+radius:5 cm,area:78.5 sq cm,circumference:32.400000000000006 cm

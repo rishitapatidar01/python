@@ -20,7 +20,7 @@ def typecheck(x):
 	else:
 		x=str(x)
 	return x
-y=input("enter the value:")
-y=typecheck(y)
+"""x=input("enter the value:")
+y=typecheck(x)
 print("user value=",y)
-print("user value type=",type(y))
+print("user value type=",type(y))"""

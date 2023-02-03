@@ -8,7 +8,7 @@ def choice():
 	print("press 5 for mode")
 
 
-	choice=input("enter yoour choice")
+	choice=input("enter your choice")
 	return()
 
 def calculator(x,y):
@@ -28,13 +28,13 @@ def calculator(x,y):
 	elif choice=="5":
 		r=x%y
 		print("modulus of numbers are",r)
-		
 	else:
 		print("invalid choice")
-		return()
+		
 x=int(input("enter the num1:"))
 y=int(input("enter the num2:"))
 var1=choice()
 print(var1)
 print(calculator(x,y))
-t.typecheck(x,y)
+t.typecheck(x)
+t.typecheck(y)

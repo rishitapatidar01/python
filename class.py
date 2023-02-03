@@ -10,3 +10,4 @@ class student:
 		print("subject:",self.subject)
 s1=student("Rishita","bca","python")
 s1.show()
+ 
