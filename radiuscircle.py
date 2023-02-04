@@ -4,7 +4,7 @@ class circle:
 	def area(self):
 		return 3.14*self.radius*self.radius
 	def circumference(self):
-		return 3.24*2*self.radius
+		return 3.14*2*self.radius
 def dwrite(var1,var2,var3):
 	file=open("detail.txt","a")
 	datarow="{},{},{}\n".format(var1,var2,var3)
