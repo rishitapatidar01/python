@@ -42,7 +42,7 @@ class datafile(student):
 
     def rollgen(self,data):
 
-        file1 = open("details.txt", "a")
+        file1 = open("details.txt","a")
         fulldata = "{},{}\n".format(self.rollno, data)
         file1.write(fulldata)
         file1.close()

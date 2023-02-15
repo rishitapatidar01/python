@@ -13,6 +13,7 @@ else:
 			print(n,"is prime")
 list=[n]"""	
 
+	
 x=int(input("enter the number"))
 y=1/2
 z=x**y
